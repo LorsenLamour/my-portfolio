@@ -1,0 +1,27 @@
+.mainHeader{
+
+background-color: #71e5f5; /* Dark gray background */
+  color: white; /* White text */
+  padding: 20px; /* Padding around content */
+  text-align: center; /* Center-align text */
+  justify-content: space-between; /* Distribute items with space between them */
+  display: flex;
+}
+
+.mainHeader li {
+  float: left;
+  list-style:none;
+}
+
+.mainHeader ul{
+ gap: 40px;
+ display: flex;
+ padding: 20px;
+}
+.mainHeader a{
+  text-decoration: none;
+  font-weight: 400;
+}
+.mainHeader a:hover{
+  color: pink;
+}
