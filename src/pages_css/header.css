@@ -1,8 +1,8 @@
 .mainHeader{
 
-background: #fc00ff;  
-background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
-background: linear-gradient(to right, #00dbde, #fc00ff); 
+background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: white; 
   padding: 20px; 
@@ -24,10 +24,17 @@ background: linear-gradient(to right, #00dbde, #fc00ff);
 }
 .mainHeader a{
   text-decoration: none;
+/* Google-Fonts */
+  font-family: "New Rocker", system-ui;
   font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  color: black;
 }
+
+
 .mainHeader a:hover{
-  color: pink;
+  color: rgb(255, 255, 255);
 }
 
 .hamburger{

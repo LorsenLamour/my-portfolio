@@ -1,0 +1,9 @@
+.mainBackground{
+
+background: linear-gradient(to top, #26D0CE, #1A2980);
+
+width: 100%;
+height: 100vh;
+min-height: 100vh;
+padding-top: 20px;
+}

@@ -27,9 +27,9 @@ background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-2
 background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-# Link 
+# Links & Sources  
 
-React-icon =>   https://react-icons.github.io/react-icons/
-
+0. React-icon               =>  https://react-icons.github.io/react-icons/
 1. UIgradients  (color)     =>  https://uigradients.com/#BoraBora
 2. GradientHunt (color)     =>  https://gradienthunt.com/
+3. Fonts-Google             =>  https://fonts.google.com/
