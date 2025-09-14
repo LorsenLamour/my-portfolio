@@ -1,11 +1,15 @@
 .mainHeader{
 
-background-color: #71e5f5; /* Dark gray background */
-  color: white; /* White text */
-  padding: 20px; /* Padding around content */
-  text-align: center; /* Center-align text */
-  justify-content: space-between; /* Distribute items with space between them */
+background: #fc00ff;  
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+background: linear-gradient(to right, #00dbde, #fc00ff); 
+
+  color: white; 
+  padding: 20px; 
+  text-align: center; 
+  justify-content: space-between; 
   display: flex;
+  position: relative;
 }
 
 .mainHeader li {
@@ -24,4 +28,42 @@ background-color: #71e5f5; /* Dark gray background */
 }
 .mainHeader a:hover{
   color: pink;
+}
+
+.hamburger{
+  font-size: 50px;
+  background: none;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+.navMenu a {
+  text-decoration: none;
+  color: white;
+}
+  .navMenu {
+    display: none;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 41px;
+  }
+
+  .navMenu.active {
+    display: block;
+  }
+
+  .navMenu ul {
+    flex-direction: column;
+    gap: 30px;
+ 
+  }
 }
