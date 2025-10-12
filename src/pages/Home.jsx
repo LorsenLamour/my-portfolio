@@ -1,21 +1,24 @@
-import Header from "../components/Header";
-import Main_background from "../components/Main_background";
-function Home(){
-    return(
-        <div>
-            <Header/>
-            <Main_background>
+import '../pages_css/home.css';
+const homeDescription = {
+    title: 'Bienvenu sur mon portfolio personnel',
+    description: ''
+}
+
+function Home() {
+    return (
+        <>
+
+            <h1 className="homeTitle">{homeDescription.title}</h1>
 
 
 
 
-                
-            </Main_background>
 
-            
 
-            
-        </div>
+
+
+
+        </>
     )
 }
 export default Home;

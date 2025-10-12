@@ -1,26 +1,21 @@
 import '../pages_css/about.css';
-import Header from "../components/Header";
-import Main_background from "../components/Main_background";
+const aboutDescription = {
+    title: 'About Me',
+    description: " I'm a passionate and aspiring front-end developer with a love for creating beautiful, responsive, and user-friendly websites. I've been learning and working with HTML, CSS, JavaScript, and React, and I'm alwaysexploring new ways to improve my skills and build better user experiences. I'm excited to grow in the tech industry and contribute to creative, impactful, and accessible web applications.",
+}
 function About() {
     return (
         <>
-            <Header />
-            <Main_background>
-                
-                <section className="aboutSection">
-                    <h1>About Me</h1>
-                    <p> I'm a passionate and aspiring front-end developer with a love for creating beautiful,
-                        responsive, and user-friendly websites.
-                        I've been learning and working with HTML, CSS, JavaScript, and React, and I'm always
-                        exploring new ways to improve my skills and build better user experiences.
-                        I'm excited to grow in the tech industry and contribute to creative, impactful
-                        , and accessible web applications.
-                    </p>
+
+
+            <section className="aboutSection">
+                <h1>{aboutDescription.title}</h1>
+                <p>{aboutDescription.description}</p>
 
 
 
-                </section>
-            </Main_background>
+            </section>
+
         </>
     )
 }
