@@ -6,15 +6,29 @@ const aboutDescription = {
 function About() {
     return (
         <>
+            <div className='aboutContainer'>
+                <div className='aboutColSection'>
+<div className='aboutColSection'>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+     Reprehenderit sit, suscipit totam quasi voluptatem quod omnis dignissimos corporis enim dolorem repellat optio 
+    cum unde error quos aliquid quibusdam id. Perferendis?
+</div>
+
+                    <div className='aboutTextCol'>
+                        <h1>{aboutDescription.title}</h1>
+                        <section className="aboutSection">
+
+                            <p>{aboutDescription.description}</p>
 
 
-            <section className="aboutSection">
-                <h1>{aboutDescription.title}</h1>
-                <p>{aboutDescription.description}</p>
+
+                        </section>
+
+                    </div>
+                </div>
+            </div>
 
 
-
-            </section>
 
         </>
     )
