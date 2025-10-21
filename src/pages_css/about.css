@@ -1,14 +1,42 @@
-.aboutSection{
-      color: #fcfcfc;
-      text-align: center;
-     
+.aboutContainer {
+    display: flex;
+    gap: 50px;
 }
 
-.aboutSection p{
+.aboutRow {
+    margin: 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap; 
+
+    /* Allow flex to wrap and make it responsive for small screen */
+
+}
+
+
+.aboutSection {
+    color: #fcfcfc;
+    text-justify: auto;
+}
+
+.aboutSection p {
     font-size: xx-large;
-
-    
+    text-align: justify
 }
-.aboutColSection{
-    
+
+.aboutCol {
+    padding: 15px;
+    border-radius: 20px;
+    background: #010b251c;
+}
+
+.aboutColLeft {
+    flex: 1 1 300px;
+
+}
+
+.aboutColRight {
+    flex: 1 1 300px;
+
+
 }
