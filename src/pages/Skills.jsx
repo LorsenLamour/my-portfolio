@@ -3,7 +3,6 @@ function Skills(){
     return(
         <div>
 
-            <Header/>
 
             
         </div>

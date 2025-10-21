@@ -3,7 +3,7 @@ function Education(){
     return(
         <div>
 
-            <Header/>
+      
 
             
         </div>
