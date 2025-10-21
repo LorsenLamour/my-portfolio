@@ -1,7 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from "./components/Header";
-import Main_background from "./components/Main_background"
 import About from './pages/About';
 import Home from './pages/Home';
 import Educations from './pages/Educations';
@@ -12,9 +11,9 @@ function App() {
 
 
   return (
-    <>
+   <div className='globalBackkgroun'>
+
       <Header />
-      <Main_background>
         
         <Routes>
           <Route path='/' element={<Home />} />
@@ -24,9 +23,8 @@ function App() {
           <Route path='/projects' element={<Projects />} />
 
         </Routes>
-      </Main_background>
-
-    </>
+</div>
+    
   )
 }
 
