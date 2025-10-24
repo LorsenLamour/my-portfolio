@@ -30,17 +30,20 @@
     background: #010b251c;
 }
 
-.aboutColLeft {
+.about-col-right {
     flex: 1 1 300px;
 
 }
 
-.aboutColRight {
+.about-col-left {
     flex: 1 1 300px;
+    border-radius: 50%;
 
 
 }
 
-.profilPictureStyle{
-    
+.about-profile-picture{
+    border-radius: 50%;
+    width: 530px;
+    background-size: cover;
 }

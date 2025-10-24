@@ -13,10 +13,10 @@ function About() {
         <MainLayout>
             <div className='aboutContainer'>
                 <div className='aboutRow'>
-                    <div className='aboutCol aboutColRight'>
-                       <img className='' src={aboutMe.profilPicture} alt="Profile Picture" /> 
+                    <div className='aboutCol about-col-left'>
+                       <img className='about-profile-picture' src={aboutMe.profilPicture} alt="Profile Picture" /> 
                     </div>
-                    <div className='aboutCol  aboutColLeft'>
+                    <div className='aboutCol  about-col-right'>
                         <div className='aboutTextCol'>
                             <h1>{aboutMe.title}</h1>
                             <section className="aboutSection">
