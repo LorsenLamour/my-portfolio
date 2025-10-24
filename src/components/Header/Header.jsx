@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
-import '../pages_css/header.css';
+import '../Header/Header.css';
 import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
+
+const CV_PATH = "/pdfFiles/CV-Lamour_Lorsen.pdf";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +20,8 @@ function Header() {
                     <li><Link to="/educations" onClick={toggleMenu}>Educations</Link></li>
                     <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
                     <li><Link to="/skilss" onClick={toggleMenu}>Skills</Link></li>
+                    <li><Link to={CV_PATH} target="_blank" onClick={toggleMenu}>Resume</Link></li>
+
                 </ul>
 
 
