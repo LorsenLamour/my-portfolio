@@ -5,8 +5,3 @@ html, body, #root {
   height: 100%;
 }
 
-.globalBackkgroun{
-
-background: linear-gradient(to top, #26D0CE, #1A2980);
-min-height: 100vh;
-}
