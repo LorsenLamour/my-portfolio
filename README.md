@@ -22,3 +22,4 @@ background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, F
 1. UIgradients  (color)     =>  https://uigradients.com/#BoraBora
 2. GradientHunt (color)     =>  https://gradienthunt.com/
 3. Fonts-Google             =>  https://fonts.google.com/
+4. Lucide React             => https://lucide.dev/guide/packages/lucide-react

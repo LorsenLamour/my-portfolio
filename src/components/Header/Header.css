@@ -1,15 +1,11 @@
 .mainHeader{
-
-background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   color: white; 
   padding: 20px; 
   text-align: center; 
   justify-content: space-between; 
   display: flex;
   position: relative;
+  border-bottom:10px solid aqua;
 }
 
 .mainHeader li {
@@ -21,8 +17,10 @@ background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Fi
  gap: 40px;
  display: flex;
  padding: 20px;
+ 
 }
 .mainHeader a{
+
   text-decoration: none;
 /* Google-Fonts */
   font-family: "New Rocker", system-ui;
@@ -40,9 +38,13 @@ background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Fi
 .hamburger{
   font-size: 50px;
   background: none;
-  color: white;
+  color: aqua;
   display: none;
   cursor: pointer;
+}
+
+.navMenu a {
+  color:aqua;
 }
 
 /* Responsive behavior */
@@ -52,9 +54,9 @@ background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Fi
   }
 .navMenu a {
   text-decoration: none;
-  color: white;
 }
-  .navMenu {
+
+.navMenu {
     display: none;
     position: absolute;
     top: 120px;
@@ -62,6 +64,7 @@ background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Fi
     background-color: #222;
     padding: 10px;
     border-radius: 41px;
+    
   }
 
   .navMenu.active {
