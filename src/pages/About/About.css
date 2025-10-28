@@ -7,12 +7,15 @@
     margin: 50px;
     display: flex;
     gap: 50px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 
     /* Allow flex to wrap and make it responsive for small screen */
 
 }
 
+.title-about-me{
+    color: aqua;
+}
 
 .aboutSection {
     color: #fcfcfc;
@@ -26,24 +29,36 @@
 
 .aboutCol {
     padding: 15px;
-    border-radius: 20px;
-    background: #010b251c;
+    flex: 1 1 300px;
+
 }
 
 .about-col-right {
-    flex: 1 1 300px;
+    border-radius: 20px;
+    background: #010b251c;
+    border: 5px solid aqua;
+
 
 }
 
 .about-col-left {
-    flex: 1 1 300px;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
 
-.about-profile-picture{
+.about-profile-picture {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
-    width: 530px;
-    background-size: cover;
+    border: 9px solid #000000;
+    display: block;
+}
+
+
+.social-icons-in-about{
+padding-left: 50px;
 }
