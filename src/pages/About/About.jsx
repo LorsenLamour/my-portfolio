@@ -1,6 +1,5 @@
-import MainLayout from '../../layouts/MainLayout';
 import '../About/About.css';
-import profilPicture from "../../assets/Pictures/profilePicture.jpg"
+import profilPicture from "../../assets/Pictures/cc.jpg"
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 const aboutMe = {
     title: 'About Me',
@@ -10,7 +9,7 @@ const aboutMe = {
 
 function About() {
     return (
-        <MainLayout>
+      
             <div className='aboutContainer'>
                 <div className='aboutRow'>
                     <div className='aboutCol about-col-left'>
@@ -34,7 +33,7 @@ function About() {
             </div>
 
 
-        </MainLayout>
+
     )
 }
 export default About;

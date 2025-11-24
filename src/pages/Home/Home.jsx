@@ -1,4 +1,3 @@
-import MainLayout from '../../layouts/MainLayout';
 import '../Home/Home.css';
 const homeDescription = {
     title: 'Bienvenu sur mon portfolio personnel',
@@ -7,7 +6,7 @@ const homeDescription = {
 
 function Home() {
     return (
-   <MainLayout>
+
 
             <h1 className="homeTitle">{homeDescription.title}</h1>
 
@@ -19,7 +18,7 @@ function Home() {
 
 
 
-        </MainLayout>
+        
     )
 }
 export default Home;
