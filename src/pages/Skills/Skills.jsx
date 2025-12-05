@@ -1,10 +1,19 @@
 function Skills(){
+    const skillsList= {
+        title: "My skills",
+        react: "React, MySQL, Vite, JavaScript, Node.js"
+
+    }
     return(
-        <div>
+   
+<div>
+    <a href="">{skillsList.title}</a>
+</div>
 
 
-            
-        </div>
+
+ 
+    
     )
 }
 export default Skills;
