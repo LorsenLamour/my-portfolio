@@ -9,7 +9,6 @@ const aboutMe = {
                 I'm excited to grow in the tech industry and contribute to creative, impactful, and accessible web applications.`,
     profilPicture: profilPicture,
 }
-
 function About() {
     return (
 
@@ -33,6 +32,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            
         </div>
 
 

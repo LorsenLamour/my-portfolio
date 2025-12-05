@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import '../Header/Header.css';
 import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import profilPicture from "../../assets/Pictures/cc.jpg"
+
 
 const CV_PATH = "/pdfFiles/CV-Lamour_Lorsen.pdf";
 
@@ -9,7 +11,9 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen(!isOpen); return (
         <header className="mainHeader">
-            <h1>My Portfolio</h1>
+            <div>
+                <img className='header-profile-picture' src={profilPicture} alt="Profile Picture" />
+            </div>
             <button className="hamburger" onClick={toggleMenu}>
                 {isOpen ? <FaTimes /> : <FaBars />}
             </button>

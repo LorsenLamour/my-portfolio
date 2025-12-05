@@ -1,6 +1,7 @@
 .aboutContainer {
     display: flex;
     gap: 50px;
+    padding-bottom: 200px;
 }
 
 .aboutRow {
@@ -22,6 +23,7 @@
 .aboutSection {
     color: #fcfcfc;
     text-justify: auto;
+    
 }
 
 .aboutSection p {
@@ -43,7 +45,7 @@
     background: #010b251c;
     border: 5px solid aqua;
     box-sizing: border-box;
-
+  
 
 }
 
