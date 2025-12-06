@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import '../Header/Header.css';
 import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import profilPicture from "../../assets/Pictures/cc.jpg"
+import profilPicture from "../../assets/Pictures/initial.png"
 
 
 const CV_PATH = "/pdfFiles/CV-Lamour_Lorsen.pdf";

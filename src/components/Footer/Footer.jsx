@@ -2,24 +2,37 @@ import "../Footer/Footer.css"
 import footerpng from "../../assets/Footer_picture.jpg"
 function Footer() {
     return (
-        <div className="footer-style">
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Lorsen Lamour</h3>
+                    <p>Future Front-End / Full-Stack Developer</p>
+                </div>
 
-            <div className="footer-section-general">
-                <h3>General</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Resume</a></li>
+                <div class="footer-section">
+                    <h4>General</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </div>
 
-                </ul>
-
-
-
+                <div class="footer-section">
+                    <h4>Socials</h4>
+                    <div class="socials">
+                        <a href="https://github.com/LorsenLamour" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/ton-linkedin" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
             </div>
-            <p className="footer-text-style">&copy; 2025 Lamour Lorsen. All Rights Reserved.</p>
-        </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Lamour Lorsen. All rights reserved</p>
+            </div>
+        </footer>
 
     )
 }

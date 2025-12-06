@@ -1,45 +1,48 @@
-.footer-style {
-    background-color: black;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-
+.footer {
+  background: #0d0d0d;
+  color: #e6e6e6;
+  padding: 2.5rem 1.5rem;
+  margin-top: 4rem;
 }
 
-.footer-text-style {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  gap: 2rem;
 }
 
-.footer-section-general {
-    padding-top: 20px;
-    text-align: right;
-    padding-right: 100px;
-    color: white;
-        
-    
-   
-
-
+.footer-section h3, 
+.footer-section h4 {
+  margin-bottom: 0.8rem;
 }
 
-.footer-section-general li a {
-    text-decoration: none;
-    color: white;
- 
-
-    
-}
-.footer-section-general li {
+.footer-section ul {
   list-style: none;
-  margin: 0.5em 0;
+  padding: 0;
+}
+
+.footer-section a {
+  color: #bfbfbf;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+.socials a {
+  margin-right: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+  color: #a6a6a6;
+  font-size: 0.9rem;
 }
