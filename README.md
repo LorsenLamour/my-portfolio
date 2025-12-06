@@ -8,6 +8,7 @@ To run this project locally, follow the steps below:
 ### 1. Clone the repository
 
 git clone https://github.com/LorsenLamour/my-portfolio.git
+
 cd my-portfolio
 
 ### 2. Install dependencies
