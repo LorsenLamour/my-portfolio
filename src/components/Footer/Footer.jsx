@@ -1,5 +1,4 @@
 import "../Footer/Footer.css"
-import footerpng from "../../assets/Footer_picture.jpg"
 function Footer() {
     return (
         <footer class="footer">
@@ -24,7 +23,7 @@ function Footer() {
                     <h4>Socials</h4>
                     <div class="socials">
                         <a href="https://github.com/LorsenLamour" target="_blank">GitHub</a>
-                        <a href="https://linkedin.com/in/ton-linkedin" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/lorsen-lamour-38746b387/" target="_blank">LinkedIn</a>
                     </div>
                 </div>
             </div>

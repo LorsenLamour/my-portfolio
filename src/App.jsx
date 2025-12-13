@@ -7,18 +7,16 @@ import Projects from './pages/Projects/Projects';
 import MainLayout from './layouts/MainLayout';
 
 function App() {
-
-
-  return (
-      <MainLayout>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/skills' element={<Skills />} />
-          <Route path='/projects' element={<Projects />} />
-        </Routes>
-    </MainLayout>
-  )
+    return (
+        <MainLayout>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/skills' element={<Skills />} />
+                <Route path='/projects' element={<Projects />} />
+            </Routes>
+        </MainLayout>
+    )
 }
 
 export default App

@@ -1,7 +1,8 @@
 /* Reset default browser spacing */
-html, body, #root {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-

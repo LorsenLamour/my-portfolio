@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import profilPicture from "../../assets/Pictures/initial.png"
 
 
-const CV_PATH = "/pdfFiles/CV-Lamour_Lorsen.pdf";
+const CV_PATH = "/pdfFiles/CV_Lamour_Lorsen.pdf";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);

@@ -1,13 +1,12 @@
+import "../Skills/Skills.css"
+import { SiTypescript } from "react-icons/si";
 function Skills(){
-    const skillsList= {
-        title: "My skills",
-        react: "React, MySQL, Vite, JavaScript, Node.js"
-
-    }
+ 
     return(
    
-<div>
-    <a href="">{skillsList.title}</a>
+<div className="icons-style-skills">
+<span className=" span-icons-style" ><SiTypescript /></span>
+TypeScrypte
 </div>
 
 
