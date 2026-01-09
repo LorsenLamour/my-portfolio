@@ -14,7 +14,7 @@ cd my-portfolio
 ### 2. Install dependencies
 npm install or npm i
 
-### 3. Install dependencies
+### 3. Start the project
 npm start
 
 
