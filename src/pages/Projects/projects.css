@@ -1,0 +1,54 @@
+ .main-container{
+    padding-top: 100px;
+ }
+ .carousel-container {
+  position: relative;
+  width: 600px; /* Adjust if I needed */
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  gap: 5rem;
+  align-items: center;
+}
+
+.slide-content {
+  display: flex;
+flex-direction: column;
+  height: 100%;
+    box-sizing: border-box;
+    padding: 2rem 7rem;
+}
+
+.slide-number {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-arrow { left: 10px; }
+.right-arrow { right: 10px; }
+
+/*
+
+
+ justify-content: center;
+  align-items: center;
+
+*/
