@@ -1,9 +1,9 @@
-.aboutContainer {
+.about-container {
     display: flex;
     gap: 50px;
 }
 
-.aboutRow {
+.about-row {
     margin: 0 auto;
     padding: 50px;
     display: flex;
@@ -19,19 +19,19 @@
     color: aqua;
 }
 
-.aboutSection {
+.about-section {
     color: #fcfcfc;
     text-justify: auto;
     
 }
 
-.aboutSection p {
+.about-section p {
     font-size: xx-large;
     text-align: justify;
 
 }
 
-.aboutCol {
+.about-col {
     padding: 15px;
     flex: 1 1 300px;
     box-sizing: border-box;

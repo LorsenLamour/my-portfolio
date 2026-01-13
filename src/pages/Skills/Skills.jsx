@@ -1,11 +1,11 @@
-import "../Skills/Skills.css"
+import style from "../Skills/Skills.module.css"
 import { SiTypescript } from "react-icons/si";
 function Skills(){
  
     return(
    
-<div className="icons-style-skills">
-<span className=" span-icons-style" ><SiTypescript /></span>
+<div className={style["icons-style-skills"]}>
+<span className={style["span-icons-style"]} ><SiTypescript /></span>
 TypeScrypte
 </div>
 

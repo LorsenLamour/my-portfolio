@@ -1,4 +1,4 @@
-import '../About/About.css';
+import style from '../About/About.module.css';
 import profilPicture from "../../assets/Pictures/cc.jpg"
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 const aboutMe = {
@@ -12,20 +12,20 @@ const aboutMe = {
 function About() {
     return (
 
-        <div className='aboutContainer'>
-            <div className='aboutRow'>
-                <div className='aboutCol about-col-left'>
+        <div className={style["about-container"]}>
+            <div className={style["about-row"]}>
+                <div className={`${style["about-col"]} ${style["about-col-left"]}`}>
                     <div>
-                        <img className='about-profile-picture' src={aboutMe.profilPicture} alt="Profile Picture" />
+                        <img className={style["about-profile-picture"]} src={aboutMe.profilPicture} alt="Profile Picture" />
                     </div>
-                    <div className='social-icons-in-about'>
+                    <div className={style["social-icons-in-about"]}>
                         <SocialIcons />
                     </div>
                 </div>
-                <div className='aboutCol  about-col-right'>
-                    <div className='aboutTextCol'>
-                        <h1 className='title-about-me'>{aboutMe.title}</h1>
-                        <section className="aboutSection">
+                <div className={`${style["about-col"]} ${style["about-col-right"]}`}>
+                    <div className={style["about-text-col"]}>
+                        <h1 className={style["title-about-me"]}>{aboutMe.title}</h1>
+                        <section className={style["about-section"]}>
                             <p>{aboutMe.description}</p>
                         </section>
 
