@@ -1,42 +1,24 @@
-import { useState } from "react";
-import "../Projects/Projects.css";
+import style from "../Projects/Projects.module.css";
 import projectList from "../../constantsDataJS/Projects.json"
 
-const Projects = ({ items = projectList }) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+const Projects = () => {
 
-    if (items.length === 0) {
-        return <div>No projects available</div>;
-    }
-
-    const totalSlides = items.length;
-    const projectOfCurrentSlide = items[currentIndex];
-    const goToPrevious = () => {
-        setCurrentIndex(currentIndex === 0 ? totalSlides - 1 : currentIndex - 1);
-    };
-
-    const goToNext = () => {
-        setCurrentIndex(currentIndex === totalSlides - 1 ? 0 : currentIndex + 1);
-    };
 
     return (
-        <div className="main-container">
-        <div className="carousel-container">
-            <button onClick={goToPrevious} className="left-arrow">Previous</button>
-
-            <div className="slide-content">
-                
-                    <h2>{projectOfCurrentSlide.title}</h2>
-                    <p>{projectOfCurrentSlide.description}</p>
-                    <a href={projectOfCurrentSlide.link} target="_blank" rel="noopener noreferrer">View Project</a>
-
-
-                <div className="slide-number">{currentIndex + 1}/{totalSlides}</div>
-            
+        <div className={style["project-container"]}>
+            <div className={style["project-card-content"]}>
+                {projectList.map((project, index) => (
+                    <div key={index} className={style["project-card"]}>
+                        <img className={style["project-image"]} src={project.image} alt={project.title} />
+                        <h2 className="title-01">{project.title}</h2>
+                        <p className="body-01">{project.description}</p>
+                        <button
+                            className="button-01"onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}>
+                            View Project
+                        </button>
+                    </div>
+                ))}
             </div>
-
-            <button onClick={goToNext} className="right-arrow">Next</button>
-        </div>
         </div>
     );
 };

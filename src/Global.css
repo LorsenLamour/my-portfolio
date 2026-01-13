@@ -1,0 +1,35 @@
+/* Reset default browser spacing */
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.title-01{
+color: black;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.body-01{
+font-size: 1rem;
+  color: #555;
+  margin: 0 0 15px 0;
+}
+
+.button-01 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button-01:hover {
+  background-color: #0056b3;
+}

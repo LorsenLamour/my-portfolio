@@ -2,12 +2,14 @@
   {
     "id": 1,
     "title": "RunnerX",
+    "image": "/src/assets/RunnerX.png",
     "description": "Développement d’un jeu de plateforme intégrant un parcours d’obstacles dynamiques, conçu avec PixiJS",
     "link": "https://github.com/LorsenLamour/RunnerX"
   },
   {
     "id": 2,
     "title": "TV-Remote ",
+    "image": "/src/assets/TV-Remote.png",
     "description": "Développement et optimisation d’une télécommande virtuelle permettant de contrôler des vidéos via Chromecast",
     "link": "https://github.com/LorsenLamour/TV-Remote"
   }
