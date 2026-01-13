@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import '../Header/Header.css';
+import style from '../Header/Header.module.css';
 import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -9,13 +9,13 @@ const CV_PATH = "/pdfFiles/CV_Lamour_Lorsen.pdf";
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen(!isOpen); return (
-        <header className="mainHeader">
+        <header className={style["main-header"]}>
             <div>
-           </div>
-            <button className="hamburger" onClick={toggleMenu}>
+            </div>
+            <button className={style["hamburger"]} onClick={toggleMenu}>
                 {isOpen ? <FaTimes /> : <FaBars />}
             </button>
-            <nav className={`navMenu ${isOpen ? 'active' : ''}`}>
+            <nav className={`${style["navMenu"]} ${isOpen ? style["active"] : ''}`}>
                 <ul>
                     <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
                     <li><Link to="/about" onClick={toggleMenu}>About</Link></li>

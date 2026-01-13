@@ -1,7 +1,7 @@
 import style from '../Home/Home.module.css';
 const homeDescription = {
-    title: `Creator of modern, elegant & functional web interfaces!`,
-    description: `Hi, my name is Lamour Lorsen. I'm a computer science student always eager to learn.`
+    title: `Hi, my name is Lamour Lorsen.`,
+    description: `I'm a computer science student always eager to learn and a creator of modern, elegant & functional web interfaces!`
 }
 
 function Home() {

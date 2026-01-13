@@ -1,27 +1,27 @@
-import "../Footer/Footer.css"
+import style from "../Footer/Footer.module.css"
 function Footer() {
     return (
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-section">
+        <footer className={style["footer"]}>
+            <div className={style["footer-container"]}>
+                <div className={style["footer-section"]}>
                     <h3>Lorsen Lamour</h3>
                     <p>Future Front-End / Full-Stack Developer</p>
                 </div>
 
-                <div class="footer-section">
+                <div className={style["footer-section"]}>
                     <h4>General</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Resume</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/skills">Skills</a></li>
+                        <li><a href="/resume">Resume</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-section">
+                <div className={style["footer-section"]}>
                     <h4>Socials</h4>
-                    <div class="socials">
+                    <div className={style["socials"]}>
                         <a href="https://github.com/LorsenLamour" target="_blank">GitHub</a>
                         <a href="https://www.linkedin.com/in/lorsen-lamour-38746b387/" target="_blank">LinkedIn</a>
                     </div>

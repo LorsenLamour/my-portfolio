@@ -1,4 +1,4 @@
-.mainHeader{
+.main-header{
   color: white; 
   text-align: center; 
   justify-content: space-between; 
@@ -7,18 +7,18 @@
   border-bottom:5px solid aqua;
 }
 
-.mainHeader li {
+.main-header li {
   float: left;
   list-style:none;
 }
 
-.mainHeader ul{
+.main-header ul{
  gap: 40px;
  display: flex;
  padding: 20px;
  
 }
-.mainHeader a{
+.main-header a{
 
   text-decoration: none;
 /* Google-Fonts */
@@ -30,7 +30,7 @@
 }
 
 
-.mainHeader a:hover{
+.main-header a:hover{
   color: rgb(255, 255, 255);
 }
 
