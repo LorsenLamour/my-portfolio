@@ -15,7 +15,6 @@ function Footer() {
                         <li><a href="/about">About</a></li>
                         <li><a href="/projects">Projects</a></li>
                         <li><a href="/skills">Skills</a></li>
-                        <li><a href="/resume">Resume</a></li>
                     </ul>
                 </div>
 
@@ -28,7 +27,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div class="footer-bottom">
+            <div className={style["footer-bottom"]}>
                 <p>© 2025 Lamour Lorsen. All rights reserved</p>
             </div>
         </footer>

@@ -21,10 +21,12 @@ npm start
 # Portfolio overview (Still in progress...)
 
 ### 1. Home Page
-![picture](image.png)
+![home-page](image-3.png)
 
 ### 2. About Page
 ![about_me_page_screenshot](image-1.png)
+### 3. Projects page
+![projects-page](image-2.png)
 
 # Color I might use
 1. 
