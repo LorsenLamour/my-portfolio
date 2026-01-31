@@ -15,21 +15,15 @@
 
 }
 
-.title-about-me {
-    color: aqua;
-}
+
 
 .about-section {
     color: #fcfcfc;
-    text-justify: auto;
-    
-}
-
-.about-section p {
-    font-size: xx-large;
-    text-align: justify;
+  
 
 }
+
+
 
 .about-col {
     padding: 15px;
@@ -42,9 +36,10 @@
 .about-col-right {
     border-radius: 20px;
     background: #010b251c;
-    border: 5px solid aqua;
+    border: 2.5px solid aqua;
     box-sizing: border-box;
-  
+    
+
 
 }
 
@@ -59,7 +54,7 @@
 .about-profile-picture {
     width: 100%;
     max-width: 200px;
-    border-radius: 50%;
+    border-radius: 120px;
     border: 5px solid aqua;
     display: block;
     box-sizing: border-box;

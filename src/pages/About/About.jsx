@@ -1,6 +1,13 @@
 import style from '../About/About.module.css';
 import profilPicture from "../../assets/Pictures/cc.jpg"
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
+
+
+
+
+
+
+
 const aboutMe = {
     title: 'About Me',
     description: `I'm a passionate and aspiring front-end developer with a love for creating beautiful,
@@ -9,6 +16,13 @@ const aboutMe = {
                 I'm excited to grow in the tech industry and contribute to creative, impactful, and accessible web applications.`,
     profilPicture: profilPicture,
 }
+
+
+
+
+
+
+
 function About() {
     return (
 
@@ -24,15 +38,15 @@ function About() {
                 </div>
                 <div className={`${style["about-col"]} ${style["about-col-right"]}`}>
                     <div className={style["about-text-col"]}>
-                        <h1 className={style["title-about-me"]}>{aboutMe.title}</h1>
+                        <h1 className="title-lg">{aboutMe.title}</h1>
                         <section className={style["about-section"]}>
-                            <p>{aboutMe.description}</p>
+                            <p className='body-text-01'>{aboutMe.description}</p>
                         </section>
 
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
 

@@ -10,8 +10,8 @@ const Projects = () => {
                 {projectList.map((project, index) => (
                     <div key={index} className={style["project-card"]}>
                         <img className={style["project-image"]} src={project.image} alt={project.title} />
-                        <h2 className="title-01">{project.title}</h2>
-                        <p className="body-01">{project.description}</p>
+                        <h2 className="title-md">{project.title}</h2>
+                        <p className="body-text-02">{project.description}</p>
                         <button
                             className="button-01"onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}>
                             View Project

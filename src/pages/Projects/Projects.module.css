@@ -1,6 +1,6 @@
+
 .project-container{
-    
-padding: 50px;
+padding: min(3rem);
 padding-top: 100px;
 }
 .project-card-content{
@@ -8,6 +8,8 @@ padding-top: 100px;
 flex-direction: row;
 display: flex;
 gap: 5rem;
+flex-wrap: wrap;
+
 
 }
 .project-image{

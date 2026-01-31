@@ -8,9 +8,11 @@ const CV_PATH = "/pdfFiles/CV_Lamour_Lorsen.pdf";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
-    const toggleMenu = () => setIsOpen(!isOpen); return (
+    const toggleMenu = () => setIsOpen(!isOpen); 
+    return (
         <header className={style["main-header"]}>
-            <div>
+            <div className={style["logo-container"]}>
+                <Link to="/" className={style["logo"]}>Lamour Lorsen</Link>
             </div>
             <button className={style["hamburger"]} onClick={toggleMenu}>
                 {isOpen ? <FaTimes /> : <FaBars />}

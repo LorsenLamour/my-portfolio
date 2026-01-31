@@ -30,10 +30,10 @@ const skills = [
 function Skills() {
 
     return (
-
-        <div className={style["icons-style-skills"]}>
+<div className={style["skills-container"]}>
+        <div className={style["icon-container"]}>
             {skills.map((skill, index) => (
-                <div key={index} className={style["icon-container"]}>
+                <div key={index} className={style["icons-style-skills"]}>
                     {skill.icon}
                     <span>{skill.name}</span>
                 </div>
@@ -41,7 +41,7 @@ function Skills() {
         </div>
 
 
-
+</div>
 
 
     )
