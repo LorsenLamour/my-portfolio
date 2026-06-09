@@ -6,27 +6,32 @@ body,
     padding: 0;
     height: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .title-xl{
+  
 font-size: clamp(1.8rem, 10vw, 4rem);
 
 }
 .title-lg{
 font-size:  2rem;
 color: aqua;
-font-family: 'Times New Roman', Times, serif;
+font-family: "Faculty Glyphic", sans-serif;
 
 
 }
 .title-md{
 color: rgb(255, 255, 255);
-font-family: 'Times New Roman', Times, serif;
+font-family: "Faculty Glyphic", sans-serif;
+
 
 }
 
 .body-text-01{
 color: rgb(255, 255, 255);
-font-family: 'Times New Roman', Times, serif;
+font-family: "Faculty Glyphic", sans-serif;
 font-size: clamp(0.8rem, 3vw, 2rem);
 text-align: justify;
 
@@ -38,6 +43,8 @@ text-align: justify;
 font-size: 1rem;
   color: #555;
   margin: 0 0 15px 0;
+  font-family: "Faculty Glyphic", sans-serif;
+
 }
 
 .button-01 {

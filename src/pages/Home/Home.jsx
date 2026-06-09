@@ -7,7 +7,6 @@ const homeDescription = {
 function Home() {
     return (
         <div>
-
             <h1 className={style["home-title"]}>{homeDescription.title}</h1>
             <h4 className={style["home-description"]}>{homeDescription.description}</h4>
 

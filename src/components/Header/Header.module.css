@@ -22,11 +22,10 @@
 
     text-decoration: none;
     /* Google-Fonts */
-    font-family: "New Rocker", system-ui;
+    font-family: "Faculty Glyphic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: x-large;
-    color: black;
+    font-size: 2rem;
 }
 
 
@@ -70,6 +69,7 @@
         padding: 10px;
         border-radius: 41px;
 
+
     }
 
     .navMenu.active {
@@ -84,7 +84,7 @@
 }
 
 .logo-container {
-      margin-top: 40px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-bottom: 30px;
 

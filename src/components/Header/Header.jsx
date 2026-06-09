@@ -12,7 +12,7 @@ function Header() {
     return (
         <header className={style["main-header"]}>
             <div className={style["logo-container"]}>
-                <Link to="/" className={style["logo"]}>Lamour Lorsen</Link>
+                <Link to="/" className={style["logo"]}>LL</Link>
             </div>
             <button className={style["hamburger"]} onClick={toggleMenu}>
                 {isOpen ? <FaTimes /> : <FaBars />}
@@ -20,9 +20,9 @@ function Header() {
             <nav className={`${style["navMenu"]} ${isOpen ? style["active"] : ''}`}>
                 <ul>
                     <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-                    <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
-                    <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
-                    <li><Link to="/skills" onClick={toggleMenu}>Skills</Link></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><Link to={CV_PATH} target="_blank" onClick={toggleMenu}>Resume</Link></li>
 
                 </ul>
